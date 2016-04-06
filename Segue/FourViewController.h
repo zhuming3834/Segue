@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  FourViewController.h
 //  Segue
 //
 //  Created by zhuming on 16/1/13.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface FourViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic,copy)NSString *navTitle;
 
 @end
-

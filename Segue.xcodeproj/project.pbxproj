@@ -15,6 +15,9 @@
 		10E1D8D21C45F23500AC38DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E1D8D01C45F23500AC38DC /* LaunchScreen.storyboard */; };
 		10E1D8DD1C45F23500AC38DC /* SegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E1D8DC1C45F23500AC38DC /* SegueTests.m */; };
 		10E1D8E81C45F23500AC38DC /* SegueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E1D8E71C45F23500AC38DC /* SegueUITests.m */; };
+		10E1D8F71C45F29400AC38DC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E1D8F61C45F29400AC38DC /* SecondViewController.m */; };
+		10E1D8FA1C45F58300AC38DC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E1D8F91C45F58300AC38DC /* ThirdViewController.m */; };
+		10E1D8FD1C45F64B00AC38DC /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E1D8FC1C45F64B00AC38DC /* FourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		10E1D8E31C45F23500AC38DC /* SegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E1D8E71C45F23500AC38DC /* SegueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegueUITests.m; sourceTree = "<group>"; };
 		10E1D8E91C45F23500AC38DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E1D8F51C45F29400AC38DC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		10E1D8F61C45F29400AC38DC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		10E1D8F81C45F58300AC38DC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		10E1D8F91C45F58300AC38DC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		10E1D8FB1C45F64B00AC38DC /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		10E1D8FC1C45F64B00AC38DC /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				10E1D8C61C45F23500AC38DC /* AppDelegate.m */,
 				10E1D8C81C45F23500AC38DC /* ViewController.h */,
 				10E1D8C91C45F23500AC38DC /* ViewController.m */,
+				10E1D8F51C45F29400AC38DC /* SecondViewController.h */,
+				10E1D8F61C45F29400AC38DC /* SecondViewController.m */,
+				10E1D8F81C45F58300AC38DC /* ThirdViewController.h */,
+				10E1D8F91C45F58300AC38DC /* ThirdViewController.m */,
+				10E1D8FB1C45F64B00AC38DC /* FourViewController.h */,
+				10E1D8FC1C45F64B00AC38DC /* FourViewController.m */,
 				10E1D8CB1C45F23500AC38DC /* Main.storyboard */,
 				10E1D8CE1C45F23500AC38DC /* Assets.xcassets */,
 				10E1D8D01C45F23500AC38DC /* LaunchScreen.storyboard */,
@@ -207,7 +222,6 @@
 				TargetAttributes = {
 					10E1D8BE1C45F23500AC38DC = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = A6CJBL77R4;
 					};
 					10E1D8D71C45F23500AC38DC = {
 						CreatedOnToolsVersion = 7.2;
@@ -273,6 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E1D8FD1C45F64B00AC38DC /* FourViewController.m in Sources */,
+				10E1D8F71C45F29400AC38DC /* SecondViewController.m in Sources */,
+				10E1D8FA1C45F58300AC38DC /* ThirdViewController.m in Sources */,
 				10E1D8CA1C45F23500AC38DC /* ViewController.m in Sources */,
 				10E1D8C71C45F23500AC38DC /* AppDelegate.m in Sources */,
 				10E1D8C41C45F23500AC38DC /* main.m in Sources */,
@@ -366,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -403,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -414,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Segue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhuming.Segue;
@@ -425,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Segue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhuming.Segue;
